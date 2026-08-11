@@ -31,7 +31,7 @@ The website includes:
 
 The portfolio can be viewed directly in a web browser using the deployed GitHub Pages website:
 
-**Live Website:** `https://n4zr-sketcher.github.io/simple-portfolio-site/`
+**Live Website:** `https://n4zr-sketcher.github.io/FSWD-Proj1-udemy-clone/`
 
 ## Features
 
