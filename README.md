@@ -27,6 +27,12 @@ The website includes:
 - SVG Icons
 - Local Images
 
+## View Online
+
+The portfolio can be viewed directly in a web browser using the deployed GitHub Pages website:
+
+**Live Website:** `https://n4zr-sketcher.github.io/simple-portfolio-site/`
+
 ## Features
 
 ### Navigation Bar
