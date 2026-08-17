@@ -14,6 +14,7 @@ nav {
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 1;
 }
 
 .navbar {
@@ -29,6 +30,7 @@ nav {
 .navbar__s1 h1 {
     color: #A434F0;
     justify-content: right;
+    font-weight: bold;
 }
 
 .navbar__s2 {
@@ -67,6 +69,30 @@ p:hover {
     cursor: pointer;
 }
 
+/* My learning popup */
+
+.mylearning{
+    position: relative;
+}
+
+.mylearning__popup{
+    position: absolute;
+    background-color: white;
+    border: black 1px solid;
+    width:200px;
+    top: 30px; padding: 15px;
+    right: 100px; left: 0;
+    display: none;
+
+}
+
+.mylearning:hover{
+    text-decoration: underline 2px;
+    .mylearning__popup{
+        display: block;
+    }
+}
+
 .categories {
     display: flex;
     justify-content: space-around;
@@ -90,6 +116,19 @@ p:hover {
     width: 100%;
     height: 500px;
     padding: 10px;
+}
+
+.sale-image{
+    position: relative;
+}
+
+.sale-image__offer{
+    padding: 15px;
+    background-color: white;
+    position:absolute;
+    top:20%;
+    left:10%;
+    border: solid 1px black;
 }
 
 .recommend {
