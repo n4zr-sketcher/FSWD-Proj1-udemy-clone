@@ -10,7 +10,7 @@
 
 }
 
-nav{
+nav {
     position: sticky;
     top: 0;
     background-color: white;
@@ -45,7 +45,7 @@ nav{
     border: none;
     width: 100%;
     font-size: 16px;
-    ;
+    background-color: transparent;
 }
 
 .navbar__s2 input:focus {
@@ -154,32 +154,32 @@ p:hover {
     flex-basis: 25%
 }
 
-.footer__one{
-    display: flex ;
-    gap:10px;
-    padding:10px;
+.footer__one {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
     background-color: black;
 }
 
-.footer__one__s1 p{
+.footer__one__s1 p {
     margin-top: 10px;
-    margin-left:20px;
-    color:white;
-}
-
-.footer__one__s2 p{
-    margin-top: 10px;
-    margin-left:20px;
+    margin-left: 20px;
     color: white;
 }
 
-.footer__two{
+.footer__one__s2 p {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+.footer__two {
     background-color: black;
     color: white;
-    display:flex;
-    padding-top:35px;
-    padding-left:10px;
-    padding-right:10px;
+    display: flex;
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 35px;
     align-items: center;
     justify-content: space-between;
