@@ -62,8 +62,7 @@ nav {
 
 }
 
-.navbar__s3 icon,
-p:hover {
+.navbar__s3 icon ,p:hover {
     background-color: transparent;
     border-radius: 5px;
     cursor: pointer;
@@ -105,11 +104,13 @@ p:hover {
     color: white;
     padding: 15px;
     border-radius: 50px;
+    border: transparent 1px solid;
 }
 
 .categories p:hover {
-    background-color: blueviolet;
-    color: white;
+    background-color: white;
+    color: black;
+    border: black 1px solid;
 }
 
 .sale-image img {
@@ -129,7 +130,44 @@ p:hover {
     top:20%;
     left:10%;
     border: solid 1px black;
+    opacity: 0;
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
+
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.sale-image__offer{
+    animation-name: shake;
+    transition-duration: 2s;
+    transition-delay: 3s;
+    transition-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+ 0% { transform: translateX(0) }
+ 25% { transform: translateX(5px) }
+ 50% { transform: translateX(-5px) }
+ 75% { transform: translateX(5px) }
+ 100% { transform: translateX(0) }
+}
+
+
 
 .recommend {
     padding: 10px;
