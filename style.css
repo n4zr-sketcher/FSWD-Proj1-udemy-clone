@@ -59,10 +59,11 @@ nav {
     justify-content: space-between;
     gap: 15px;
     align-items: center;
+    border:1px transparent solid;
 
 }
 
-.navbar__s3 icon ,p:hover {
+.navbar__s3  p:hover {
     background-color: transparent;
     border-radius: 5px;
     cursor: pointer;
@@ -83,6 +84,11 @@ nav {
     right: 100px; left: 0;
     display: none;
 
+}
+
+.course_popup:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .mylearning:hover{
@@ -182,6 +188,7 @@ nav {
 
 .course-card {
     width: 250px;
+    border: 3px solid transparent;
 }
 
 .course-card img {
@@ -233,7 +240,7 @@ nav {
 
 .footer__one {
     display: flex;
-    gap: 10px;
+    gap: 55px;
     padding: 10px;
     background-color: black;
 }
@@ -260,4 +267,86 @@ nav {
     padding-bottom: 35px;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Media Quiries */
+
+@media screen and (max-width:800px){
+    body{
+        font-size: 10px;
+    }
+
+    .course-container{
+        flex-basis: 50%;
+    }
+
+    .categories{
+        padding-top: 1px;
+        padding-bottom: 1px;
+        height:fit-content;
+        text-align: center;
+        align-items: center;
+        
+    }
+
+    .navbar__s3 p{
+        text-align: center;
+    }
+    
+}
+
+.navbar__s3__icon1 , .navbar__s3__icon2 , .navbar__s3__icon3{
+    border: 1px transparent solid;
+}
+
+.navbar-cart_icon_hover{
+    border: 1px solid transparent;
+}
+
+.navbar-bell_icon_hover{
+    border: 1px solid transparent;
+}
+
+.navbar-person_icon_hover{
+    border: 1px solid transparent;
+}
+
+.navbar-cart_icon_hover:hover{
+    border: 1px solid rgb(87, 86, 86);
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 100%;
+
+}
+
+.navbar-bell_icon_hover:hover{
+    border: 1px solid rgb(87, 86, 86);
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 100%;
+
+}
+
+.navbar-person_icon_hover:hover{
+    border: 1px solid rgb(87, 86, 86);
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 100%;
+
+}
+
+.course-card:hover{
+    box-shadow: 5px 5px rgb(119, 117, 117);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.footer__one__s2 p:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.footer__one__s1   p:hover{
+    text-decoration: underline;
+    cursor:pointer;
 }
