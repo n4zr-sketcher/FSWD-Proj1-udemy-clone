@@ -63,11 +63,19 @@ nav {
 
 }
 
+.navbar__s3__icon4{
+    display: none;
+}
+
+
+
 .navbar__s3  p:hover {
     background-color: transparent;
     border-radius: 5px;
     cursor: pointer;
 }
+
+
 
 /* My learning popup */
 
@@ -295,6 +303,21 @@ nav {
     
 }
 
+@media screen and (max-width:500px){
+    .navbar{
+        justify-content: left;
+    }
+    .navbar__s3{
+        display: none;
+    }
+
+    .navbar__s3__icon4{
+        width: 24px; height: 24px;
+        display:block;
+    }
+
+}
+
 .navbar__s3__icon1 , .navbar__s3__icon2 , .navbar__s3__icon3{
     border: 1px transparent solid;
 }
@@ -310,6 +333,11 @@ nav {
 .navbar-person_icon_hover{
     border: 1px solid transparent;
 }
+
+.navbar-menu_bar_hover{
+    border: 1px solid transparent;
+}
+
 
 .navbar-cart_icon_hover:hover{
     border: 1px solid rgb(87, 86, 86);
@@ -335,6 +363,20 @@ nav {
 
 }
 
+.navbar-menu_bar_hover:hover{
+    border: 1px solid rgb(87, 86, 86);
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 100%;
+}
+
+.navbar-menu_bar_hover.hover{
+    border: 1px solid rgb(87, 86, 86);
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 100%;
+}
+
 .course-card:hover{
     box-shadow: 5px 5px rgb(119, 117, 117);
     border-radius: 10px;
@@ -350,3 +392,4 @@ nav {
     text-decoration: underline;
     cursor:pointer;
 }
+
