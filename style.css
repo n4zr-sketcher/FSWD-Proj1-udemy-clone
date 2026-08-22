@@ -307,7 +307,7 @@ nav {
     .navbar{
         justify-content: left;
     }
-    .navbar__s3{
+    .course_popup, .mylearning, .mylearning__popup, .navbar-bell_icon_hover, .navbar-cart_icon_hover, .navbar-person_icon_hover{
         display: none;
     }
 
